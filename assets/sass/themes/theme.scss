@@ -1,9 +1,9 @@
 // Variables
 $loading-bg-color: rgb(0, 0, 0);
 $loading-z-index: 666;
-$loading-animation-duration: 0.2s;
+$loading-animation-duration: 3.0s;
 $loading-animation-delay: 1s;
-$effect: hover 2s linear infinite;
+$effect: hover 3s linear forwards;
 $font-family: Roboto;
 $font-size: 16px;
 $font-weight-regular: 500;

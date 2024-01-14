@@ -18,7 +18,8 @@
   letter-spacing: 0em;
   text-align: center;
 
-  h2 {
+  p{
+    font-size: 18px;
     font-weight: 300;
   }
 }
@@ -29,7 +30,7 @@
 
 .fonctionnement-title {
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0em;
@@ -54,7 +55,7 @@
   background: $background-color-light;
 }
 
-.fonctionnement-options-row h2 {
+.fonctionnement-options-row h4 {
   @include font-style;
   margin-left: 10px;
 }
@@ -63,6 +64,7 @@
   @include font-style;
   font-weight: $font-weight-bold;
   line-height: 28px;
+  font-size: 24px;
 }
 
 
@@ -562,5 +564,56 @@ figcaption {
     .footer-logo {
       padding-top: 57px;
       width: 215px;
+    }
+    
+  }
+
+  .bar-recherche .map {
+    display: flex;
+  }
+  
+  .bar-recherche .fa-map-marker-alt {
+    height: 50px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 112%;
+  }
+  
+  .bar-recherche input {
+    height: 50px;
+    width: 230px;
+    font-weight: 600;
+    font-size: 119%;
+    padding-left: 20px;
+  }
+ 
+  .bar-recherche .recherche {
+    border-radius: 0px 10px 10px 0px;
+    height: 50px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: #9356DC;
+    cursor: pointer;
+    border: 2px solid #9356DC;
+    margin-left: -6px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .recherche {
+      display: none;
+      
+      
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .bar-recherche .map {
+        height: 50px;
     }
   }

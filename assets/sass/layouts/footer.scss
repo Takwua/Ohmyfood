@@ -13,7 +13,7 @@
 }
 
 .favorite-selected {
-  background: linear-gradient(193deg, rgb(147, 86, 220) -11.44%, rgb(255, 121, 218) 123.93%) text;
+  background: linear-gradient(193deg, rgb(147, 86, 220) -11.44%, rgb(255, 121, 218) 123.93%) ;
   -webkit-text-fill-color: transparent;
   animation: 1s ease 0s 1 normal none running fav;
 }
@@ -23,6 +23,7 @@
   background-color: $background-color-dark;
   color: $text-color-light;
 }
+
 
 .footer-nav-item {
   display: flex;
@@ -52,6 +53,8 @@
   margin-left: 17px;
 }
 
+
+
 .footer svg {
   width: 11px;
   height: 13px;
@@ -65,3 +68,7 @@
   display: flex;
   flex-direction: column;
 }
+.footer-logo h1 {
+  font-family: 'Shrikhand';
+}
+
