@@ -952,10 +952,9 @@ input[type=checkbox]:checked ~ .menu-restaurant-item .menu-restaurant-item-selec
 
 .bar-recherche input {
   height: 50px;
-  width: 230px;
+  width: 140px;
   font-weight: 600;
-  font-size: 119%;
-  padding-left: 20px;
+  font-size: 18px;
 }
 
 .bar-recherche .recherche {
@@ -1020,33 +1019,45 @@ input[type=checkbox]:checked ~ .menu-restaurant-item .menu-restaurant-item-selec
 
 .image-container1 {
   background-image: url("../images/restaurants/alacitefrancaise.jpg");
-  background-size: cover; /* or contain, or specific dimensions */
-  background-position: center; /* or other positions */
-  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat */
+  background-size: cover;
+  /* or contain, or specific dimensions */
+  background-position: center;
+  /* or other positions */
+  background-repeat: no-repeat;
+  /* or repeat-x, repeat-y, repeat */
   height: 500px;
 }
 
 .image-container2 {
   background-image: url("../images/restaurants/lanoteenchantee.jpg");
-  background-size: cover; /* or contain, or specific dimensions */
-  background-position: center; /* or other positions */
-  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat */
+  background-size: cover;
+  /* or contain, or specific dimensions */
+  background-position: center;
+  /* or other positions */
+  background-repeat: no-repeat;
+  /* or repeat-x, repeat-y, repeat */
   height: 500px;
 }
 
 .image-container3 {
   background-image: url("../images/restaurants/lapalettedugout.jpg");
-  background-size: cover; /* or contain, or specific dimensions */
-  background-position: center; /* or other positions */
-  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat */
+  background-size: cover;
+  /* or contain, or specific dimensions */
+  background-position: center;
+  /* or other positions */
+  background-repeat: no-repeat;
+  /* or repeat-x, repeat-y, repeat */
   height: 500px;
 }
 
 .image-container4 {
   background-image: url("../images/restaurants/ledelicedessens.jpg");
-  background-size: cover; /* or contain, or specific dimensions */
-  background-position: center; /* or other positions */
-  background-repeat: no-repeat; /* or repeat-x, repeat-y, repeat */
+  background-size: cover;
+  /* or contain, or specific dimensions */
+  background-position: center;
+  /* or other positions */
+  background-repeat: no-repeat;
+  /* or repeat-x, repeat-y, repeat */
   height: 500px;
 }
 
@@ -1294,6 +1305,9 @@ a {
   justify-content: center;
   color: rgb(16, 16, 16);
 }
+.page-main-title h2 {
+  font-size: 28px;
+}
 
 .favorite-restaurants {
   margin-right: 7.03%;
@@ -1409,7 +1423,7 @@ input[type=checkbox]:checked ~ .favorite-restaurants .filled-heart {
   justify-content: space-between;
 }
 
-.menu-restaurant-item-txt h2 {
+.menu-restaurant-item-txt h3 {
   padding-top: 15px;
   font-family: Roboto;
   font-size: 18px;
